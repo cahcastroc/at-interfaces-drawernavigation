@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFE5FD"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".HomeFragment">
+
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:autofillHints=""
+        android:background="@drawable/retangulo"
+        android:backgroundTint="#9AFFFFFF"
+        android:drawableStart="@drawable/iconname"
+        android:ems="10"
+        android:hint="@string/nome"
+        android:includeFontPadding="false"
+        android:inputType="textPersonName"
+        android:lineSpacingExtra="8sp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textColorHint="#222121"
+        android:textDirection="inherit"
+        tools:ignore="TextContrastCheck" />
+
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:background="@drawable/retangulo"
+        android:backgroundTint="#9AFFFFFF"
+        android:drawableStart="@drawable/end"
+        android:ems="10"
+        android:hint="@string/endere_o"
+        android:inputType="textPostalAddress"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="#222121" />
+
+    <EditText
+        android:id="@+id/etCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:background="@drawable/retangulo"
+        android:backgroundTint="#9AFFFFFF"
+        android:drawableStart="@drawable/citystate"
+        android:ems="10"
+        android:hint="@string/cidade"
+        android:inputType="textPostalAddress"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="#222121" />
+
+    <EditText
+        android:id="@+id/etState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:background="@drawable/retangulo"
+        android:backgroundTint="#9AFFFFFF"
+        android:drawableStart="@drawable/citystate"
+        android:ems="10"
+        android:hint="@string/estado"
+        android:inputType="textPostalAddress"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="#222121" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:background="@drawable/retangulo"
+        android:backgroundTint="#9AFFFFFF"
+        android:drawableStart="@drawable/iconemail"
+        android:ems="10"
+        android:hint="@string/e_mail"
+        android:inputType="textEmailAddress"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="#222121"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:background="@drawable/retangulo"
+        android:backgroundTint="#9AFFFFFF"
+        android:drawableStart="@drawable/tel"
+        android:ems="10"
+        android:hint="@string/telefone"
+        android:inputType="phone"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="#222121"
+        android:textColorHint="#222121"
+        android:textColorLink="#222121"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#673AB7"
+        android:text="@string/cadastrar"
+        android:textColor="#F3EFEF" />
+
+</LinearLayout>
+
+

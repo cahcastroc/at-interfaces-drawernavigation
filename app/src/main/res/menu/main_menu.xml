@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/informa_es_pessoais" />
+
+    <item
+        android:id="@+id/educationFragment"
+        android:icon="@drawable/ic_baseline_school_24"
+        android:title="@string/forma_o" />
+
+    <item
+        android:id="@+id/professionalFragment"
+        android:icon="@drawable/ic_baseline_work_24"
+        android:title="@string/experi_ncia_profissional" />
+
+    <item
+        android:id="@+id/coursesFragment"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="@string/cursos" />
+
+    <item
+        android:id="@+id/publicationsFragment"
+        android:icon="@drawable/ic_baseline_star_24"
+        android:title="@string/publica_es" />
+
+</menu>

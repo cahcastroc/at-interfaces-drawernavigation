@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFE5FD"
+    android:padding="40dp"
+    tools:context=".PublicationsFragment" >
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="261dp"
+        android:layout_height="213dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/cone_de_livros"
+        android:src="@drawable/book"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/cerqueira_camila_n_c_educa_o_no_ciberespa_o_as_potencialidades_do_ensino_a_dist_ncia_na_era_da_converg_ncia_midi_tica_2015_monografia_aperfei_oamento_especializa_o_em_comunica_o_e_informa_o_educacional_e_empresarial_centro_universit_rio_bar_o_de_mau_jardim_paulista"
+        android:textColor="#616161"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/cerqueira_camila_n_c_jornalismo_de_revista_um_estudo_explorat_rio_sobre_os_efeitos_da_converg_ncia_midi_tica_em_veja_e_poca_2014_trabalho_de_conclus_o_de_curso_gradua_o_em_comunica_o_social_universidade_federal_de_juiz_de_fora"
+        android:textColor="#616161"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

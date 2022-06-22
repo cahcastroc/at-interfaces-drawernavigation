@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="me.camila.at_interfaces.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment2"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_educationFragment"
+            app:destination="@id/educationFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_professionalFragment"
+            app:destination="@id/professionalFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_coursesFragment"
+            app:destination="@id/coursesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_publicationsFragment"
+            app:destination="@id/publicationsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="me.camila.at_interfaces.ProfileFragment"
+        android:label="Informações Pessoais"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/educationFragment"
+        android:name="me.camila.at_interfaces.EducationFragment"
+        android:label="Formação"
+        tools:layout="@layout/fragment_education" />
+    <fragment
+        android:id="@+id/professionalFragment"
+        android:name="me.camila.at_interfaces.ProfessionalFragment"
+        android:label="Experiência Profissional"
+        tools:layout="@layout/fragment_professional" />
+    <fragment
+        android:id="@+id/coursesFragment"
+        android:name="me.camila.at_interfaces.CoursesFragment"
+        android:label="Cursos"
+        tools:layout="@layout/fragment_courses" />
+    <fragment
+        android:id="@+id/publicationsFragment"
+        android:name="me.camila.at_interfaces.PublicationsFragment"
+        android:label="Publicações"
+        tools:layout="@layout/fragment_publications" />
+</navigation>
